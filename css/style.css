@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1em  0;
+    text-align:right;
+    width: 75em;
+
+}
+.navbar
+{
+    background-color: #333333;
+    height: 60px;
+}
+img{
+    margin: 0 0 0 25em;
+}
+
+li {
+    display: inline;
+    padding-right:1.5em;
+    font-size: medium;
+}
+.contain-all{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3em;
+}
+
+.contain-all h2{
+    text-align: center;
+}
+.contain-all p{
+    text-align: center;
+}
+
+.splash-screen{
+    padding: 5em 5em 0 7em;
+}
+.details{
+    padding-left: 3em;
+}
+.three{
+    margin-bottom: 8em;
+}
+.card{
+    width: 90%;
+    height: 150px;
+    padding: 4em 3em;
+    background-color: white;
+    box-shadow: 0 0 40px -25px black;
+    margin: 2em auto;
+}
+.submit{
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 5em;
+}
+.submit button{
+    width: 25em;
+}
+.button-color{
+    background: palevioletred;
+}
+button:hover{
+    background: deepskyblue;
+}
+footer{
+    background-color: #222222;
+    color:deepskyblue;
+}
+footer h5{
+    text-align: right;
+}
+footer h4{
+    text-align: center;
+}
